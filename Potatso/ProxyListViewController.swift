@@ -37,7 +37,7 @@ class ProxyListViewController: FormViewController {
         reloadData()
     }
 
-    func add() {
+    @objc func add() {
         let vc = ProxyConfigurationViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
@@ -79,18 +79,19 @@ class ProxyListViewController: FormViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
 
-    func tableView(_ tableView: UITableView, canEditRowAtIndexPath indexPath: IndexPath) -> Bool {
+    
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         if allowNone && indexPath.row == 0 {
             return false
         }
         return true
     }
 
-    func tableView(_ tableView: UITableView, editingStyleForRowAtIndexPath indexPath: IndexPath) -> UITableViewCellEditingStyle {
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
         return .delete
     }
 
-    func tableView(_ tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             guard indexPath.row < proxies.count, let item = (form[indexPath] as? ProxyRow)?.value else {
                 return

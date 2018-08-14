@@ -9,8 +9,7 @@ def fabric
 end
 
 def library
-    pod 'KissXML'
-    pod 'KissXML/libxml_module'
+    pod 'KissXML', '~> 5.2.2'
     pod 'ICSMainFramework', :path => "./Library/ICSMainFramework/"
     pod 'MMWormhole', '~> 2.0.0'
     pod 'KeychainAccess'
@@ -34,7 +33,7 @@ target "Potatso" do
     pod 'AsyncSwift'
     pod 'SwiftColor'
     pod 'Appirater'
-    pod 'Eureka', :path => "./Library/Eureka/"
+    pod 'Eureka'
     pod 'MBProgressHUD'
     pod 'CallbackURLKit', :path => "./Library/CallbackURLKit"
     pod 'ICDMaterialActivityIndicatorView', '~> 0.1.0'
@@ -44,9 +43,7 @@ target "Potatso" do
     pod 'Alamofire'
     pod 'ObjectMapper'
     pod 'CocoaLumberjack/Swift', '~> 3.0.0'
-    pod 'Helpshift', '5.6.1'
-    pod 'PSOperations', '~> 3.0.0'
-    pod 'LogglyLogger-CocoaLumberjack', '~> 3.0'
+    pod 'PSOperations'
     tunnel
     library
     fabric
@@ -74,6 +71,8 @@ end
 target "PotatsoLibrary" do
     library
     model
+    # YAML-Framework 0.0.3 is not available in cocoapods so we install it from local using git submodule
+    pod 'YAML-Framework', :path => "./Library/YAML-Framework"
 end
 
 target "PotatsoModel" do
@@ -82,16 +81,5 @@ end
 
 target "PotatsoLibraryTests" do
     library
-end
-
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['ENABLE_BITCODE'] = 'NO'
-            if target.name == "HelpShift"
-                config.build_settings["OTHER_LDFLAGS"] = '$(inherited) "-ObjC"'
-            end
-        end
-    end
 end
 

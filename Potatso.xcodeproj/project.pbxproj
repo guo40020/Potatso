@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		10305058CF9183AA66172BEC /* Pods_Potatso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C82CD7437FBA5F74EB08670 /* Pods_Potatso.framework */; };
 		12AD9C79E2C246F3D21B814E /* Pods_PotatsoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494FBA89E140F817CCF2ACA /* Pods_PotatsoLibrary.framework */; };
-		1EB5EF2F1E031488000C7748 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88559EA1D21319D00B1243E /* YAML.framework */; };
 		1ED659011E05C73100D4BEE3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED659001E05C73100D4BEE3 /* CloudKit.framework */; };
 		1ED659061E05E88C00D4BEE3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED659051E05E88C00D4BEE3 /* GameKit.framework */; };
 		1ED66DEE1E05A72300638808 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED66DED1E05A72300638808 /* StoreKit.framework */; };
@@ -165,7 +164,6 @@
 		B803A6981D02B768003EA9AA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A6971D02B768003EA9AA /* API.swift */; };
 		B821B0F01D51DD8F0061E7B9 /* KeychainUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B821B0EF1D51DD8F0061E7B9 /* KeychainUtils.swift */; };
 		B821B0F31D5334D50061E7B9 /* ActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B821B0F21D5334D50061E7B9 /* ActionRow.swift */; };
-		B821B0F51D5335DA0061E7B9 /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B821B0F41D5335DA0061E7B9 /* FeedbackManager.swift */; };
 		B821B0F71D539CFD0061E7B9 /* SyncVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B821B0F61D539CFD0061E7B9 /* SyncVC.swift */; };
 		B82574A91D1D98CF007BAF40 /* Pollution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82574A81D1D98CF007BAF40 /* Pollution.swift */; };
 		B829C1721D4395BC00C17B82 /* QRCodeScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B829C1711D4395BC00C17B82 /* QRCodeScannerVC.m */; };
@@ -190,8 +188,6 @@
 		B8822CCD1D2AA70A00AD252C /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = B8822CCC1D2AA70A00AD252C /* Receipt.m */; };
 		B8822CD31D2B81C400AD252C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8822CD11D2B81C400AD252C /* libcrypto.a */; };
 		B8822CD41D2B81C400AD252C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8822CD21D2B81C400AD252C /* libssl.a */; };
-		B88559EB1D21319D00B1243E /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88559EA1D21319D00B1243E /* YAML.framework */; };
-		B88559EC1D21319D00B1243E /* YAML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88559EA1D21319D00B1243E /* YAML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B88559F01D21371A00B1243E /* PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC6FFEA1CB28B4B00E5EA61 /* PotatsoModel.framework */; };
 		B88874491D18186100AEF002 /* ShadowPath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B86B08E91D17F84900613014 /* ShadowPath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B896A8401D548AAC009E4BF5 /* ICloudSetupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896A83F1D548AAC009E4BF5 /* ICloudSetupOperation.swift */; };
@@ -201,7 +197,6 @@
 		B8A09D7E1D51B9A900A9A989 /* PrepareZoneOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A09D771D51B9A900A9A989 /* PrepareZoneOperation.swift */; };
 		B8A09D7F1D51B9A900A9A989 /* PushLocalChangesBaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A09D781D51B9A900A9A989 /* PushLocalChangesBaseOperation.swift */; };
 		B8A09D801D51B9A900A9A989 /* RealmCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A09D791D51B9A900A9A989 /* RealmCloud.swift */; };
-		B8AD81681D4AF9FB00C12FC1 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88559EA1D21319D00B1243E /* YAML.framework */; };
 		B8B1E4A61D6584DC003F8530 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B1E4A51D6584DC003F8530 /* User.swift */; };
 		B8C0FE0F1D5DF96500737454 /* PushLocalModifiedChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0FE0E1D5DF96500737454 /* PushLocalModifiedChangesOperation.swift */; };
 		B8C0FE131D5DFDB500737454 /* PushLocalDeletedChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0FE121D5DFDB500737454 /* PushLocalDeletedChangesOperation.swift */; };
@@ -327,7 +322,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B88874491D18186100AEF002 /* ShadowPath.framework in Embed Frameworks */,
-				B88559EC1D21319D00B1243E /* YAML.framework in Embed Frameworks */,
 				9BC6FFF21CB28B4B00E5EA61 /* PotatsoModel.framework in Embed Frameworks */,
 				9B9B15C51C21595B000B6541 /* PotatsoLibrary.framework in Embed Frameworks */,
 				9BC600251CB2921C00E5EA61 /* PotatsoBase.framework in Embed Frameworks */,
@@ -869,7 +863,6 @@
 		B803A6971D02B768003EA9AA /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = API.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B821B0EF1D51DD8F0061E7B9 /* KeychainUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = KeychainUtils.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B821B0F21D5334D50061E7B9 /* ActionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionRow.swift; sourceTree = "<group>"; };
-		B821B0F41D5335DA0061E7B9 /* FeedbackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
 		B821B0F61D539CFD0061E7B9 /* SyncVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncVC.swift; sourceTree = "<group>"; };
 		B82574A81D1D98CF007BAF40 /* Pollution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pollution.swift; sourceTree = "<group>"; };
 		B829C1701D4395BC00C17B82 /* QRCodeScannerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeScannerVC.h; sourceTree = "<group>"; };
@@ -927,6 +920,8 @@
 		B8F784661D3678B400F02FF5 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		B8F7AE3D1D5F178A005CA41E /* CloudSetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudSetManager.swift; sourceTree = "<group>"; };
 		C2456CC9E4E07FDB51C7E8E6 /* Pods-PotatsoLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoLibraryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PotatsoLibraryTests/Pods-PotatsoLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E46E159320A9755C00E89AF1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E46E159620A9755D00E89AF1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E78608059F51BBF6180C1843 /* Pods-PacketProcessor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketProcessor.release.xcconfig"; path = "Pods/Target Support Files/Pods-PacketProcessor/Pods-PacketProcessor.release.xcconfig"; sourceTree = "<group>"; };
 		F2765FE72409B9E2FA7F81BB /* Pods-TodayWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayWidget/Pods-TodayWidget.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -953,7 +948,6 @@
 				1ED659061E05E88C00D4BEE3 /* GameKit.framework in Frameworks */,
 				9B9B15C41C21595B000B6541 /* PotatsoLibrary.framework in Frameworks */,
 				9BC6FFF11CB28B4B00E5EA61 /* PotatsoModel.framework in Frameworks */,
-				B88559EB1D21319D00B1243E /* YAML.framework in Frameworks */,
 				B8822CD31D2B81C400AD252C /* libcrypto.a in Frameworks */,
 				1ED659011E05C73100D4BEE3 /* CloudKit.framework in Frameworks */,
 				B8822CD41D2B81C400AD252C /* libssl.a in Frameworks */,
@@ -990,7 +984,6 @@
 				9BC600361CB29AFF00E5EA61 /* PotatsoBase.framework in Frameworks */,
 				9BCE27AF1CAE535800B1E561 /* PacketProcessor.framework in Frameworks */,
 				9B87060D1C1DBDD400651424 /* libresolv.tbd in Frameworks */,
-				1EB5EF2F1E031488000C7748 /* YAML.framework in Frameworks */,
 				2BB44917A69FF1B2710678D2 /* Pods_PacketTunnel.framework in Frameworks */,
 				1EEBB8791FFFD8A700EB33C3 /* NetworkExtension.framework in Frameworks */,
 			);
@@ -1002,7 +995,6 @@
 			files = (
 				9BC600351CB29AEE00E5EA61 /* PotatsoBase.framework in Frameworks */,
 				9BC6FFF61CB28C4500E5EA61 /* PotatsoModel.framework in Frameworks */,
-				B8AD81681D4AF9FB00C12FC1 /* YAML.framework in Frameworks */,
 				12AD9C79E2C246F3D21B814E /* Pods_PotatsoLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1335,7 +1327,6 @@
 				9B1F74751C3164AC0028C1A6 /* VPN.swift */,
 				9B3247891CC0F1D200A3BAFF /* Importer.swift */,
 				B803A6971D02B768003EA9AA /* API.swift */,
-				B821B0F41D5335DA0061E7B9 /* FeedbackManager.swift */,
 				B8F7AE3D1D5F178A005CA41E /* CloudSetManager.swift */,
 				B8B1E4A51D6584DC003F8530 /* User.swift */,
 			);
@@ -2140,7 +2131,6 @@
 				9B07D6AE1CB7A6A900182C1B /* Resources */,
 				9B07D6BC1CB7AA7100182C1B /* CopyFiles */,
 				9E3CA0726A54201D3BE563DD /* [CP] Embed Pods Frameworks */,
-				DFE27DA4406124A31C225E80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2164,10 +2154,8 @@
 				B830CC631D2CF55A00FA8E37 /* Custom Data */,
 				9B8706081C1D788F00651424 /* Embed App Extensions */,
 				9B9B15821C1ECADF000B6541 /* Embed Frameworks */,
-				9B9E946C1CBA6F0A003FBC47 /* Cartahge */,
 				1EEBB8881FFFF1F800EB33C3 /* Fabric */,
 				DD684A5F98C89E3ABC84DE74 /* [CP] Embed Pods Frameworks */,
-				6E4DEB81AF3E2C099E3A4375 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2211,7 +2199,6 @@
 				9B8193AF1CBCFEE700BE320D /* Frameworks */,
 				9B8193B01CBCFEE700BE320D /* Resources */,
 				9B8193EB1CBE37BB00BE320D /* Framework Hack */,
-				E6D432308925679EB4472079 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2231,8 +2218,6 @@
 				9B8705F71C1D788F00651424 /* Frameworks */,
 				9B8705F81C1D788F00651424 /* Resources */,
 				9BC858AF1C34C5AA00992032 /* Framework Hack */,
-				1EB5EF321E0314BE000C7748 /* ShellScript */,
-				643FBD5843DCAFAD3FAA14CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2252,7 +2237,6 @@
 				9B9B15B81C21595B000B6541 /* Sources */,
 				9B9B15BA1C21595B000B6541 /* Headers */,
 				9B9B15BB1C21595B000B6541 /* Resources */,
-				0526679806209AB06F424C61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2291,7 +2275,6 @@
 				9BC6FFE71CB28B4B00E5EA61 /* Headers */,
 				9BC6FFE81CB28B4B00E5EA61 /* Resources */,
 				B84B4E341D2176D6002B946A /* Framework Hack */,
-				6583E694C11E23CA380EEDB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2311,7 +2294,6 @@
 				9BDA62571CAE2576007F2581 /* Frameworks */,
 				9BDA62581CAE2576007F2581 /* Headers */,
 				9BDA62591CAE2576007F2581 /* Resources */,
-				7C7020527AE3A7896803CE30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2438,6 +2420,7 @@
 			knownRegions = (
 				Base,
 				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 9B0CFA021C1C0B1A007BD7C6;
 			productRefGroup = 9B0CFA0C1C1C0B1B007BD7C6 /* Products */;
@@ -2557,35 +2540,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0526679806209AB06F424C61 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PotatsoLibrary/Pods-PotatsoLibrary-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1EB5EF321E0314BE000C7748 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/YAML.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		1EEBB8881FFFF1F800EB33C3 /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2599,36 +2553,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 92326569315d2336cbe215eae2b015aef513ed3c 9136206d79749547fb6e401c8b288bdbe04cbf586e049bf7dd50030fb461ace2";
-		};
-		643FBD5843DCAFAD3FAA14CF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6583E694C11E23CA380EEDB7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PotatsoModel/Pods-PotatsoModel-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		65A45481A26326D12ED85DF7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2646,87 +2570,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E4DEB81AF3E2C099E3A4375 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Potatso/Pods-Potatso-resources.sh",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HsUIResourceBundle.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ar.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/bg.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/bn.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ca.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/cs.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/da.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/de.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/el.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/en.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/es.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/fa.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/fi.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/fr.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/gu.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/he.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/hi.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/hr.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/hu.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/id.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/it.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ja.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/kn.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ko.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/lv.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ml.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/mr.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ms.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/nb-NO.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/nb.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/nl.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/pa.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/pl.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/pt.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ro.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ru.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/sk.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/sl.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/sv.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/ta.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/te.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/th.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/tr.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/uk.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/vi.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/zh-Hans.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSLocalization/zh-Hant.lproj",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSThemes/HelpshiftConfig.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v5.6.1/HSThemes/HelpshiftConfigDark.plist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Potatso/Pods-Potatso-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C7020527AE3A7896803CE30 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacketProcessor/Pods-PacketProcessor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		94E145530A683F9CCD533308 /* [CP] Check Pods Manifest.lock */ = {
@@ -2761,21 +2604,6 @@
 			shellPath = /bin/sh;
 			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [[ -d \"Frameworks\" ]]; then\nrm -fr Frameworks\nfi";
 		};
-		9B9E946C1CBA6F0A003FBC47 /* Cartahge */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/YAML.framework",
-			);
-			name = Cartahge;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		9BC858AF1C34C5AA00992032 /* Framework Hack */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2803,6 +2631,8 @@
 				"${BUILT_PRODUCTS_DIR}/MMWormhole/MMWormhole.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LibYAML/LibYAML.framework",
+				"${BUILT_PRODUCTS_DIR}/YAML-Framework/YAML_Framework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -2812,6 +2642,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMWormhole.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LibYAML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YAML_Framework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2972,7 +2804,6 @@
 				"${BUILT_PRODUCTS_DIR}/ISO8601DateFormatter/ISO8601DateFormatter.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
-				"${BUILT_PRODUCTS_DIR}/LogglyLogger-CocoaLumberjack/LogglyLogger_CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MMWormhole/MMWormhole.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -2980,6 +2811,8 @@
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftColor/SwiftColor.framework",
+				"${BUILT_PRODUCTS_DIR}/LibYAML/LibYAML.framework",
+				"${BUILT_PRODUCTS_DIR}/YAML-Framework/YAML_Framework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -2998,7 +2831,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISO8601DateFormatter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LogglyLogger_CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMWormhole.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
@@ -3006,40 +2838,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LibYAML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YAML_Framework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Potatso/Pods-Potatso-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DFE27DA4406124A31C225E80 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PotatsoLibraryTests/Pods-PotatsoLibraryTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6D432308925679EB4472079 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayWidget/Pods-TodayWidget-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3071,7 +2875,6 @@
 				B8C256AE1D1A93DA0074D3B1 /* FlatButton.swift in Sources */,
 				9B8193ED1CBE4DCA00BE320D /* UrlHandler.swift in Sources */,
 				9B1F74761C3164AD0028C1A6 /* VPN.swift in Sources */,
-				B821B0F51D5335DA0061E7B9 /* FeedbackManager.swift in Sources */,
 				B8A09D7B1D51B9A900A9A989 /* AlertOperation.swift in Sources */,
 				9B8750551CC761D000A11715 /* RequestModel.swift in Sources */,
 				B87A043A1D193ABC001132F2 /* LoggerUtils.swift in Sources */,
@@ -3327,6 +3130,7 @@
 			children = (
 				9BB3F7481CC60CBE00C2DD05 /* Base */,
 				9BB3F74A1CC60CBF00C2DD05 /* zh-Hans */,
+				E46E159620A9755D00E89AF1 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3336,6 +3140,7 @@
 			children = (
 				B8319A0E1D1BD696001E50C2 /* Base */,
 				B8319A101D1BD699001E50C2 /* zh-Hans */,
+				E46E159320A9755C00E89AF1 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3347,7 +3152,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2456CC9E4E07FDB51C7E8E6 /* Pods-PotatsoLibraryTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3359,7 +3164,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.PotatsoLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -3367,7 +3172,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16E45A00C4849FC6D582F28E /* Pods-PotatsoLibraryTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ANALYZER_NONNULL = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3379,7 +3184,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.PotatsoLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -3387,6 +3192,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -3435,6 +3241,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -3477,7 +3284,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 721750A5B5C0DCACE5C63317 /* Pods-Potatso.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Potatso/Potatso.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3510,17 +3317,14 @@
 				INFOPLIST_FILE = Potatso/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @rpath/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShadowPath/ShadowPath/libopenssl/lib",
-					"$(PODS_ROOT)/Helpshift/helpshift-sdk-ios-v5.6.1",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShadowPath/ShadowPath/libopenssl/lib";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Potatso/Potatso-Bridge-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -3530,7 +3334,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83DE540D7DA7E719057D8E51 /* Pods-Potatso.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Potatso/Potatso.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3558,16 +3362,13 @@
 				INFOPLIST_FILE = Potatso/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @rpath/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShadowPath/ShadowPath/libopenssl/lib",
-					"$(PODS_ROOT)/Helpshift/helpshift-sdk-ios-v5.6.1",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShadowPath/ShadowPath/libopenssl/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Potatso/Potatso-Bridge-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -3576,6 +3377,7 @@
 		9B0CFA2C1C1C0B1B007BD7C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PotatsoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -3589,6 +3391,7 @@
 		9B0CFA2D1C1C0B1B007BD7C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PotatsoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -3603,7 +3406,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2765FE72409B9E2FA7F81BB /* Pods-TodayWidget.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3623,7 +3426,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -3631,7 +3434,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6C3522CED51B0487ECEE41F /* Pods-TodayWidget.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -3650,7 +3453,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -3658,7 +3461,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BAB9F5C037C991150984F50 /* Pods-PacketTunnel.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -3697,7 +3500,6 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -3705,7 +3507,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 534B69172D50947634710149 /* Pods-PacketTunnel.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -3742,7 +3544,6 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -3750,7 +3551,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8591A0DF3C64D6376B09D429 /* Pods-PotatsoLibrary.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3774,7 +3575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3784,7 +3585,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61F603707715DCFA28936BB5 /* Pods-PotatsoLibrary.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -3807,7 +3608,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3816,7 +3617,7 @@
 		9BC600261CB2921D00E5EA61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3836,7 +3637,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3845,7 +3646,7 @@
 		9BC600271CB2921D00E5EA61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3863,7 +3664,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3873,7 +3674,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 217DDEB43D39CFD980088F46 /* Pods-PotatsoModel.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3897,7 +3698,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3907,7 +3708,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5509E684B48A8007AADADA51 /* Pods-PotatsoModel.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3929,7 +3730,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3939,6 +3740,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69CCED68685D929177A42E2A /* Pods-PacketProcessor.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3970,7 +3772,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatoso.PacketProcessor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/src/include\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/custom\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/src/include/ipv4\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/src/include/ipv6\"";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3981,6 +3782,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E78608059F51BBF6180C1843 /* Pods-PacketProcessor.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -4010,7 +3812,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatoso.PacketProcessor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/src/include\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/custom\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/src/include/ipv4\" \"$(SRCROOT)/$(TARGET_NAME)/tun2socks-iOS/lwip/src/include/ipv6\"";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
